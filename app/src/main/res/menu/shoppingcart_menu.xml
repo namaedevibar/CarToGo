@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Send via SMS"
+        android:id="@+id/Sms_menu"
+        android:icon="@drawable/sms"
+        app:showAsAction="always"></item>
+
+    <item
+        android:title="Send via Email"
+        android:id="@+id/Email_menu"
+        android:icon="@drawable/email"
+        app:showAsAction="always"></item>
+
+    <item
+        android:title="Add Order"
+        android:id="@+id/Add_menu"
+        android:icon="@drawable/add"
+        app:showAsAction="always"></item>
+</menu>
